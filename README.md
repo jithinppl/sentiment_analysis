@@ -13,8 +13,10 @@ The first three experiment find out the best model for sentiment anlaysis classi
 
 Analysing these three experiments it is found out that LSTM using Word2vec provides the best predictive model and can be classified as the efficient model for predicting sentiment analysis. Also, it shows that the performance of the model changes in according to the vectorization methods.
 
-Next experiment is done to check the accuracy change while incresing the dataset using pseudolabelled data
+Next experiment is done to check the accuracy change while incresing the dataset using pseudolabelled data.
+
 4. Pseudo labelling: Here LSTM model is first used to predict the values for unseen data and combining this pseudo labelled data with original dataset increases the size of data. The newly formed data is then trained and modeled with LSTM. The output plots shows that there is an increses in the performance measures when the dataset increases.
 
 Final experiment is done with data from multiple domains.
+
 5. Multi domain: Data is taken from four different domains. As a result the data size is larger then it is used in the first three experiments. This data is also trained with deep learning models. Comparing the results obtained with the result of single domain, it is obatained that there is a huge lower rate in the performance measures in the study even after the dataset increased.
